@@ -1,0 +1,5 @@
+P:\Dev\git\Crypter\Crypter\tools\bin\Debug\tools.dll
+P:\Dev\git\Crypter\Crypter\tools\bin\Debug\tools.pdb
+P:\Dev\git\Crypter\Crypter\tools\obj\Debug\tools.csprojResolveAssemblyReference.cache
+P:\Dev\git\Crypter\Crypter\tools\obj\Debug\tools.dll
+P:\Dev\git\Crypter\Crypter\tools\obj\Debug\tools.pdb
