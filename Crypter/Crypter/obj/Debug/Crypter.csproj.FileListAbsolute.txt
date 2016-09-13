@@ -13,3 +13,17 @@ P:\Dev\git\Crypter\Crypter\Crypter\obj\Debug\Crypter.Properties.Resources.resour
 P:\Dev\git\Crypter\Crypter\Crypter\obj\Debug\Crypter.csproj.GenerateResource.Cache
 P:\Dev\git\Crypter\Crypter\Crypter\obj\Debug\Crypter.exe
 P:\Dev\git\Crypter\Crypter\Crypter\obj\Debug\Crypter.pdb
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.csprojResolveAssemblyReference.cache
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\App.g.cs
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter_MarkupCompile.cache
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.exe
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.pdb
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\MainWindow.g.cs
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter_MarkupCompile.lref
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Resource\Styles.baml
+C:\private\source\Crypter\Crypter\Crypter\bin\Debug\Crypter.exe
+C:\private\source\Crypter\Crypter\Crypter\bin\Debug\Crypter.pdb
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\MainWindow.baml
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.g.resources
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.Properties.Resources.resources
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\Crypter.csproj.GenerateResource.Cache

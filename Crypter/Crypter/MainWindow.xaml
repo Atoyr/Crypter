@@ -4,9 +4,58 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Crypter"
+        WindowStyle="None"
+        Background="Transparent" AllowsTransparency="True"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" Height="200" Width="405">
+    <WindowChrome.WindowChrome>
+        <WindowChrome CaptionHeight="{x:Static SystemParameters.CaptionHeight}"
+                      ResizeBorderThickness="{x:Static SystemParameters.WindowResizeBorderThickness}" />
+    </WindowChrome.WindowChrome>
+    <Window.Resources>
+        <ResourceDictionary Source="Resource/Styles.xaml"/>
+    </Window.Resources>
+    <Border BorderBrush="Red"
+            BorderThickness="1" >
+        <Grid x:Name="gird1" ShowGridLines="True" Background="#AA888888" RenderTransformOrigin="0.39,0.487">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="150" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+
+            <StackPanel Grid.Row="0" Grid.ColumnSpan="2" Orientation="Horizontal" Margin="5"
+                            HorizontalAlignment="Right"
+                            VerticalAlignment="Top">
+                <Button Content="0" Style="{DynamicResource CaptionButtonStyleKey}" />
+                <Button Content="1" Style="{DynamicResource CaptionButtonStyleKey}" />
+                <Button Content="2" Style="{DynamicResource CaptionButtonStyleKey}" />
+                <Button Content="r" Style="{DynamicResource CaptionButtonStyleKey}" />
+            </StackPanel>
+            <!-- メニューやツールバー -->
+            <Menu Grid.Row="1" Height="{x:Static SystemParameters.MenuBarHeight}" Width="Auto" Grid.ColumnSpan="2">
+                <MenuItem Height="{x:Static SystemParameters.MenuBarHeight}" Header="Files" />
+            </Menu>
+
+            <!--<Button Grid.Row="2" Grid.ColumnSpan="2" Content="Toolbar" />-->
+            <!--<UserControl1:chart  Grid.Row="2" Grid.Column="1"  HorizontalAlignment="Left" VerticalAlignment="Top"/>-->
+            <!-- ステータスバー -->
+            <!--
+            <Button Grid.Row="4" Grid.ColumnSpan="2" Content="StatusBar" />
+            -->
+            <!-- ツリーが表示される場所 -->
+            <!--
+            <Button Grid.Row="3" Content="Tree" />
+            -->
+            <!-- エクスプローラーの右側の領域 -->
+            <!--
+            <Button Grid.Row="3" Grid.Column="1" Content="Content" />-->
+        </Grid>
+    </Border>
 </Window>

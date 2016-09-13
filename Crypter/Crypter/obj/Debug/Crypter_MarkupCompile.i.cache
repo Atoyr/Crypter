@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-P:\Dev\git\Crypter\Crypter\Crypter\obj\Debug\
+C:\private\source\Crypter\Crypter\Crypter\obj\Debug\
 Crypter
 none
 false
 DEBUG;TRACE
-P:\Dev\git\Crypter\Crypter\Crypter\App.xaml
-11151548125
+C:\private\source\Crypter\Crypter\Crypter\App.xaml
+21558266890
 
-10243348427
+9-1380113203
 13738642453
-MainWindow.xaml;
+MainWindow.xaml;Resource\Styles.xaml;
 
-True
+False
 
