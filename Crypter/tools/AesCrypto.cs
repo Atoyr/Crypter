@@ -7,8 +7,13 @@ using System.Threading.Tasks;
 
 namespace tools
 {
-    class AesCrypto : Crypto
+    public class AesCrypto : Crypto
     {
+        public AesCrypto()
+        {
+            algorithm = new AesCryptoServiceProvider();
+        }
+
         public override SymmetricAlgorithm Algorithm
         {
             get

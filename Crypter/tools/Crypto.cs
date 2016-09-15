@@ -7,8 +7,16 @@ using System.Threading.Tasks;
 
 namespace tools
 {
-    abstract class Crypto
+    public abstract class Crypto
     {
+        private bool isSettingBlockSize = false;
+        private bool isSettingKeySize = false;
+        private bool isSettingFeedbackSize = false;
+        private bool isSettingMode = false;
+        private bool isSettingPadding = false;
+        private bool isSettingKey = false;
+        private bool isSettingIV = false;
+
         protected SymmetricAlgorithm algorithm;
 
         public abstract SymmetricAlgorithm Algorithm { get; }
@@ -25,6 +33,7 @@ namespace tools
                         if (k.MinSize <= value && value <= k.MaxSize)
                         {
                             algorithm.BlockSize = value;
+                            isSettingBlockSize = true;
                             success = true;
                             break;
                         }
@@ -65,6 +74,7 @@ namespace tools
                         if (k.MinSize <= value && value <= k.MaxSize)
                         {
                             algorithm.KeySize = value;
+                            isSettingKeySize = true;
                             success = true;
                             break;
                         }
@@ -102,6 +112,7 @@ namespace tools
                     if (0 <= value && value <= algorithm.BlockSize)
                     {
                         algorithm.FeedbackSize = value;
+                        isSettingFeedbackSize = true;
                     }
                     else
                     {
@@ -134,6 +145,7 @@ namespace tools
                 if (algorithm != null)
                 {
                     algorithm.Mode = value;
+                    isSettingMode = true;
                 }
                 else
                 {
@@ -161,6 +173,7 @@ namespace tools
                 if (algorithm != null)
                 {
                     algorithm.Padding = value;
+                    isSettingPadding = true;
                 }
                 else
                 {
@@ -207,6 +220,16 @@ namespace tools
             {
                 return algorithm.IV;
             }
+        }
+
+        public ICryptoTransform GetEncryptor()
+        {
+            return algorithm.CreateEncryptor();
+        }
+
+        public ICryptoTransform GetEncryptor(byte[] key, byte[] iv)
+        {
+            return algorithm.CreateEncryptor(key, iv);
         }
     }
 }
