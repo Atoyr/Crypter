@@ -7,3 +7,12 @@ C:\private\source\Crypter\Crypter\toolsTestPreojext\bin\Debug\tools.pdb
 C:\private\source\Crypter\Crypter\toolsTestPreojext\bin\Debug\ja\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
 C:\private\source\Crypter\Crypter\toolsTestPreojext\obj\Debug\toolsTestPreojext.dll
 C:\private\source\Crypter\Crypter\toolsTestPreojext\obj\Debug\toolsTestPreojext.pdb
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\obj\Debug\toolsTestPreojext.csprojResolveAssemblyReference.cache
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\obj\Debug\toolsTestPreojext.dll
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\obj\Debug\toolsTestPreojext.pdb
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\toolsTestPreojext.dll
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\toolsTestPreojext.pdb
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\tools.dll
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\tools.pdb
+P:\Dev\git\Crypter\Crypter\toolsTestPreojext\bin\Debug\ja\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll

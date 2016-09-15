@@ -222,6 +222,18 @@ namespace tools
             }
         }
 
+        public int GenerateKey()
+        {
+            algorithm.GenerateKey();
+            return 0;
+        }
+
+        public int GenerateIV()
+        {
+            algorithm.GenerateIV();
+            return 0;
+        }
+
         public ICryptoTransform GetEncryptor()
         {
             return algorithm.CreateEncryptor();
@@ -231,5 +243,19 @@ namespace tools
         {
             return algorithm.CreateEncryptor(key, iv);
         }
+
+        public ICryptoTransform GetDecryptor()
+        {
+            return algorithm.CreateDecryptor();
+        }
+
+        public ICryptoTransform GetDecryptor(byte[] key, byte[] iv)
+        {
+            return algorithm.CreateDecryptor(key, iv);
+        }
+
+        public abstract int GenerateEncryptFile();
+        public abstract int GenerateDecryptFile();
+
     }
 }
